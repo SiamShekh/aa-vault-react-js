@@ -1,10 +1,14 @@
+import { NavLink, useLocation } from "react-router-dom";
+
 const Navbar = () => {
+    const hash = useLocation().hash;
+
     return (
-        
+
         <div className="navbar mx-auto max-w-[1150px] h-[15vh]">
             <div className="navbar-start">
                 <div className="dropdown">
-                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden text-white">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-5 w-5"
@@ -21,11 +25,11 @@ const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li className="text-white opacity-60 text-xl text-center cursor-pointer">About us</li>
-                        <li className="text-white opacity-60 text-xl text-center cursor-pointer">Benefits</li>
-                        <li className="text-white opacity-60 text-xl text-center cursor-pointer">Tokenomics</li>
-                        <li className="text-white opacity-60 text-xl text-center cursor-pointer">Roadmap</li>
-                        <li className="text-white opacity-60 text-xl text-center cursor-pointer">Team</li>
+                        <NavLink to={'/#intro'} className={`text-black opacity-60 text-xl text-center cursor-pointer ${hash == '#intro' && 'opacity-100'}`}>Introduction</NavLink>
+                        <NavLink to={'/#benefits'} className={`text-black opacity-60 text-xl text-center cursor-pointer ${hash === '#benefits' && 'opacity-100'}`}>Benefits</NavLink>
+                        <NavLink to={'/#about'} className={`text-black opacity-60 text-xl text-center cursor-pointer ${hash === '#about' && 'opacity-100'}`}>About us</NavLink>
+                        <NavLink to={'/#tokenamic'} className={`text-black opacity-60 text-xl text-center cursor-pointer ${hash === '#tokenamic' && 'opacity-100'}`}>Tokenomics</NavLink>
+                        <NavLink to={'/#road-map'} className={`text-black opacity-60 text-xl text-center cursor-pointer ${hash === '#road-map' && 'opacity-100'}`}>Roadmap</NavLink>
                     </ul>
                 </div>
                 <div className="flex items-center justify-center w-fit h-fit gap-3">
@@ -44,11 +48,11 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 gap-5">
-                    <li className="text-white opacity-60 text-xl text-center font-roboto cursor-pointer">About us</li>
-                    <li className="text-white opacity-60 text-xl text-center font-roboto cursor-pointer">Benefits</li>
-                    <li className="text-white opacity-60 text-xl text-center font-roboto cursor-pointer">Tokenomics</li>
-                    <li className="text-white opacity-60 text-xl text-center font-roboto cursor-pointer">Roadmap</li>
-                    <li className="text-white opacity-60 text-xl text-center font-roboto cursor-pointer">Team</li>
+                    <NavLink to={'/#intro'} className={`text-white opacity-60 text-xl text-center cursor-pointer ${hash === '#intro' && 'opacity-100'}`}>Introduction</NavLink>
+                    <NavLink to={'/#benefits'} className={`text-white opacity-60 text-xl text-center cursor-pointer ${hash === '#benefits' && 'opacity-100'}`}>Benefits</NavLink>
+                    <NavLink to={'/#about'} className={`text-white opacity-60 text-xl text-center cursor-pointer ${hash === '#about' && 'opacity-100'}`}>About us</NavLink>
+                    <NavLink to={'/#tokenamic'} className={`text-white opacity-60 text-xl text-center cursor-pointer ${hash === '#tokenamic' && 'opacity-100'}`}>Tokenomics</NavLink>
+                    <NavLink to={'/#road-map'} className={`text-white opacity-60 text-xl text-center cursor-pointer ${hash === '#road-map' && 'opacity-100'}`}>Roadmap</NavLink>
                 </ul>
             </div>
             <div className="navbar-end">

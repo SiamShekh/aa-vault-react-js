@@ -1,8 +1,8 @@
 const Introduction_Hero = () => {
 
     return (
-        <div className="max-w-[1150px] mx-auto  lg:h-[85vh]">
-            <div className="flex justify-between md:flex-row flex-col-reverse px-5 relative">
+        <div className="max-w-[1150px] mx-auto lg:min-h-[85vh]">
+            <div className="flex justify-between items-center md:flex-row flex-col-reverse px-5 relative">
 
                 <div className="lg:my-auto m-auto flex-1">
                     <div className="border-2 bg-[#00FF0A0D] border-[#00FF94] rounded-full md:m-0 mx-auto px-7 py-2 relative w-fit">

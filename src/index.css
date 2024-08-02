@@ -3,6 +3,74 @@
 @tailwind utilities;
 
 .custom-text {
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #000;
-  }
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #000;
+}
+
+.benefits_border {
+  border: 2px solid rgba(110, 255, 133, 0.05);
+  background: rgba(13, 23, 14, 0.25);
+  backdrop-filter: blur(5px);
+}
+
+.svg-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Roadmap.css */
+.roadmap-container {
+  text-align: center;
+  background: #0e0e0e;
+  padding: 40px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.roadmap-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.roadmap {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.roadmap-svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.roadmap-milestone {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: #141414;
+  padding: 10px;
+  border-radius: 5px;
+  width: 120px;
+}
+
+.roadmap-milestone h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: #00FF85;
+}
+
+.roadmap-milestone ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.roadmap-milestone ul li {
+  font-size: 0.9em;
+  color: #cfcfcf;
+}
