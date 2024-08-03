@@ -50,47 +50,55 @@ const Roadmap = () => {
               <p className="uppercase text-transparent bg-gradient-to-r from-[#C6FFB7] to-[#FFFFFF] text-2xl bg-clip-text font-bold">Q1 [2024]</p>
               <div className="flex items-center gap-3">
                 <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Conduct market research</p>
               </div>
               <div className="flex items-center gap-3">
                 <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
-              </div>
-            </div>
-
-            <div className="">
-              <p className="uppercase text-transparent bg-gradient-to-r from-[#C6FFB7] to-[#FFFFFF] text-2xl bg-clip-text font-bold">Q1 [2024]</p>
-              <div className="flex items-center gap-3">
-                <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Define project goals and objectives</p>
               </div>
               <div className="flex items-center gap-3">
                 <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Develop a comprehensive project plan</p>
               </div>
             </div>
 
             <div className="">
-              <p className="uppercase text-transparent bg-gradient-to-r from-[#C6FFB7] to-[#FFFFFF] text-2xl bg-clip-text font-bold">Q1 [2024]</p>
+              <p className="uppercase text-transparent bg-gradient-to-r from-[#C6FFB7] to-[#FFFFFF] text-2xl bg-clip-text font-bold">Q2 [2024]</p>
               <div className="flex items-center gap-3">
                 <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Assemble a development team</p>
               </div>
               <div className="flex items-center gap-3">
                 <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Identify key roles and responsibilities</p>
               </div>
             </div>
 
             <div className="">
-              <p className="uppercase text-transparent bg-gradient-to-r from-[#C6FFB7] to-[#FFFFFF] text-2xl bg-clip-text font-bold">Q1 [2024]</p>
+              <p className="uppercase text-transparent bg-gradient-to-r from-[#C6FFB7] to-[#FFFFFF] text-2xl bg-clip-text font-bold">Q3 [2024]</p>
               <div className="flex items-center gap-3">
                 <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Set up project repository</p>
               </div>
               <div className="flex items-center gap-3">
                 <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Develop core features of the platform</p>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="size-2 bg-[#00FF0A]"></div>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Initial smart contract development</p>
+              </div>
+            </div>
+
+            <div className="">
+              <p className="uppercase text-transparent bg-gradient-to-r from-[#C6FFB7] to-[#FFFFFF] text-2xl bg-clip-text font-bold">Q4 [2024]</p>
+              <div className="flex items-center gap-3">
+                <div className="size-2 bg-[#00FF0A]"></div>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Internal testing of core functionalities</p>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="size-2 bg-[#00FF0A]"></div>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Bug fixing and performance optimization</p>
               </div>
             </div>
 
@@ -107,47 +115,47 @@ const Roadmap = () => {
               <p className="uppercase text-transparent bg-gradient-to-r from-[#C6FFB7] to-[#FFFFFF] text-2xl bg-clip-text font-bold">Q1 [2024]</p>
               <div className="flex items-center gap-3">
                 <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Conduct market research Define project goals </p>
               </div>
               <div className="flex items-center gap-3">
                 <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
-              </div>
-            </div>
-
-            <div className="bg-[#00FF0A] bg-opacity-15 px-5 py-3 rounded-xl">
-              <p className="uppercase text-transparent bg-gradient-to-r from-[#C6FFB7] to-[#FFFFFF] text-2xl bg-clip-text font-bold">Q1 [2024]</p>
-              <div className="flex items-center gap-3">
-                <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Develop a comprehensive project plan</p>
               </div>
             </div>
 
             <div className="bg-[#00FF0A] bg-opacity-15 px-5 py-3 rounded-xl">
-              <p className="uppercase text-transparent bg-gradient-to-r from-[#C6FFB7] to-[#FFFFFF] text-2xl bg-clip-text font-bold">Q1 [2024]</p>
+              <p className="uppercase text-transparent bg-gradient-to-r from-[#C6FFB7] to-[#FFFFFF] text-2xl bg-clip-text font-bold">Q2 [2024]</p>
               <div className="flex items-center gap-3">
                 <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Assemble a development team</p>
               </div>
               <div className="flex items-center gap-3">
                 <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Identify key roles and responsibilities</p>
               </div>
             </div>
 
             <div className="bg-[#00FF0A] bg-opacity-15 px-5 py-3 rounded-xl">
-              <p className="uppercase text-transparent bg-gradient-to-r from-[#C6FFB7] to-[#FFFFFF] text-2xl bg-clip-text font-bold">Q1 [2024]</p>
+              <p className="uppercase text-transparent bg-gradient-to-r from-[#C6FFB7] to-[#FFFFFF] text-2xl bg-clip-text font-bold">Q3 [2024]</p>
               <div className="flex items-center gap-3">
                 <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Set up project repository</p>
               </div>
               <div className="flex items-center gap-3">
                 <div className="size-2 bg-[#00FF0A]"></div>
-                <p className="font-roboto text-xl font-medium capitalize text-white">Lorem, ipsum.</p>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Develop core features</p>
+              </div>
+            </div>
+
+            <div className="bg-[#00FF0A] bg-opacity-15 px-5 py-3 rounded-xl">
+              <p className="uppercase text-transparent bg-gradient-to-r from-[#C6FFB7] to-[#FFFFFF] text-2xl bg-clip-text font-bold">Q4 [2024]</p>
+              <div className="flex items-center gap-3">
+                <div className="size-2 bg-[#00FF0A]"></div>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Internal testing of core functionalities</p>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="size-2 bg-[#00FF0A]"></div>
+                <p className="font-roboto text-xl font-medium capitalize text-white">Bug fixing and performance optimization</p>
               </div>
             </div>
 

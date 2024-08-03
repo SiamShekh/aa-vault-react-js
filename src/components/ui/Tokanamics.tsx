@@ -1,7 +1,7 @@
 
 const Tokanamics = () => {
     return (
-        <div className="max-w-[1150px] mx-auto min-h-screen relative p-5 lg:p-0">
+        <div className="max-w-[1150px] mx-auto min-h-screen relative p-5 lg:mt-10 lg:p-0">
             <div className="flex justify-between items-center flex-col-reverse lg:flex-row">
                 <div className="flex-1">
                     <p className="uppercase font-roboto text-transparent bg-gradient-to-r from-[#05FF00B2] to-[#00FFB2CC] bg-clip-text text-xl">token and tokenomics</p>
@@ -11,10 +11,10 @@ const Tokanamics = () => {
                         <div className="bg-[#021000] w-full h-full rounded-xl flex justify-between items-center p-5">
                             <div className="">
                                 <p className="text-2xl text-transparent bg-gradient-to-tl from-[#FFFFFF] to-[#70FF76] bg-clip-text uppercase font-roboto font-bold">Liquidity pool</p>
-                                <p className="text-xl uppercase text-white font-roboto">AAVULT <span className="text-[#00FF0A]">(20%)</span></p>
+                                <p className="text-xl uppercase text-white font-roboto">AAVULT <span className="text-[#00FF0A]">(75%)</span></p>
                             </div>
                             <div className="">
-                                <p className="text-white">775 Million</p>
+                                <p className="text-white">750 Million</p>
                             </div>
                         </div>
                     </div>
@@ -35,10 +35,10 @@ const Tokanamics = () => {
                         <div className="bg-[#000E11] w-full h-full rounded-xl flex justify-between items-center p-5">
                             <div className="">
                                 <p className="text-xl text-transparent bg-gradient-to-tl from-[#FFFFFF] to-[#00FFD1] bg-clip-text font-roboto font-bold">Team and Development</p>
-                                <p className="text-xl uppercase text-white font-roboto">AAVULT <span className="text-[#00FFD1]">(10%)</span></p>
+                                <p className="text-xl uppercase text-white font-roboto">AAVULT <span className="text-[#00FFD1]">(5%)</span></p>
                             </div>
                             <div className="">
-                                <p className="text-white">25 Million</p>
+                                <p className="text-white">50 Million</p>
                             </div>
                         </div>
                     </div>
@@ -47,10 +47,10 @@ const Tokanamics = () => {
                         <div className="bg-[#0E0D00] w-full h-full rounded-xl flex justify-between items-center p-5">
                             <div className="">
                                 <p className="text-2xl text-transparent bg-gradient-to-tl from-[#FFFFFF] to-[#FAFF00] bg-clip-text font-roboto font-bold">Staking rewards</p>
-                                <p className="text-xl uppercase text-white font-roboto">AAVULT <span className="text-[#FAFF00]">(10%)</span></p>
+                                <p className="text-xl uppercase text-white font-roboto">AAVULT <span className="text-[#FAFF00]">(5%)</span></p>
                             </div>
                             <div className="">
-                                <p className="text-white">25 Million</p>
+                                <p className="text-white">50 Million</p>
                             </div>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ const Tokanamics = () => {
 
                     <div className="flex justify-center items-center flex-col">
                         <p className="text-white">Total ABC</p>
-                        <p className="text-xl font-roboto text-transparent bg-gradient-to-r from-[#00FFC2] to-[#42FF00] uppercase font-bold bg-clip-text">500 MILLION</p>
+                        <p className="text-xl font-roboto text-transparent bg-gradient-to-r from-[#00FFC2] to-[#42FF00] uppercase font-bold bg-clip-text">1 BILLION</p>
                     </div>
 
                 </div>
